@@ -74,14 +74,14 @@ main:hover {
 
 .img-7{
     border-radius: 10px;
-    margin: 730px 65px;
+    margin: 830px 65px;
     box-shadow: 0 0 80px white;
     animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .img-7:hover{
     border-radius: 10px;
-    margin: 730px 65px;
+    margin: 830px 65px;
     box-shadow: 0 0 80px white,
     0 0 20px blue;
     animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
