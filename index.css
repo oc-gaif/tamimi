@@ -1,0 +1,96 @@
+body{
+    color: aliceblue;
+    background: black;
+}
+.img-1{
+    margin: 15px 25px;
+    width: 300px;
+    height: 150px;
+    border-radius: 50px;
+    animation: 2s ali linear infinite;
+}
+
+main {
+    margin: 120px 15px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px whitesmoke,
+    inset 0 0 20px rgb(7, 52, 5),
+    inset 0 3px 0 10px silver;
+    width: 350px;
+    height: 600px;
+}
+main:hover {
+    margin: 120px 15px;
+    border-radius: 5%;
+    box-shadow: 0 0 40px 10px rgb(182, 156, 22),
+    inset 0 0 20px rgb(7, 52, 5),
+    inset 0 3px 0 10px silver;
+    width: 350px;
+    height: 600px;
+}
+
+
+
+
+
+.text-1{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: -480px 75px;
+    width: 250px;
+    height: 30px;
+    color: rgb(205, 222, 20);
+    border-radius: 50px;
+    box-shadow: 0 0 60px red;
+}
+.text-1:hover{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: -480px 75px;
+    width: 250px;
+    height: 30px;
+    color: rgb(143, 179, 28);
+    border-radius: 50px;
+    box-shadow: 0 0 600px rgb(238, 238, 245);
+}
+
+
+.loop{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 36%;
+}
+@keyframes ali {
+    from{
+        transform: scale(0.89);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.img-7{
+    border-radius: 10px;
+    margin: 520px 65px;
+    box-shadow: 0 0 80px white;
+    animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.img-7:hover{
+    border-radius: 10px;
+    margin: 520px 65px;
+    box-shadow: 0 0 80px white,
+    0 0 20px blue;
+    animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes sale {
+    from{
+        transform: scale(0.89) rotate(15deg);
+    }
+    to{
+        transform: scale(1) rotate(-15deg);
+    }
+}
