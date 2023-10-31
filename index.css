@@ -11,7 +11,7 @@ body{
 }
 
 main {
-    margin: 120px 15px;
+    margin: 80px 15px;
     border-radius: 5%;
     box-shadow: 0 0 20px whitesmoke,
     inset 0 0 20px rgb(7, 52, 5),
@@ -20,7 +20,7 @@ main {
     height: 600px;
 }
 main:hover {
-    margin: 120px 15px;
+    margin: 80px 15px;
     border-radius: 5%;
     box-shadow: 0 0 40px 10px rgb(182, 156, 22),
     inset 0 0 20px rgb(7, 52, 5),
@@ -37,7 +37,7 @@ main:hover {
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    margin: -480px 75px;
+    margin: -540px 75px;
     width: 250px;
     height: 30px;
     color: rgb(205, 222, 20);
@@ -48,7 +48,7 @@ main:hover {
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    margin: -480px 75px;
+    margin: -540px 75px;
     width: 250px;
     height: 30px;
     color: rgb(143, 179, 28);
@@ -73,14 +73,14 @@ main:hover {
 
 .img-7{
     border-radius: 10px;
-    margin: 520px 65px;
+    margin: 630px 65px;
     box-shadow: 0 0 80px white;
     animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .img-7:hover{
     border-radius: 10px;
-    margin: 520px 65px;
+    margin: 630px 65px;
     box-shadow: 0 0 80px white,
     0 0 20px blue;
     animation: sale  2s cubic-bezier(0.075, 0.82, 0.165, 1);
